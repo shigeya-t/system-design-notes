@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("fonts/NotoSansJP.ttf") format("truetype");
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("fonts/NotoSansMono.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
+@page {
+  size: A4;
+  margin: 15mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "Noto Sans JP";
+    font-size: 9pt;
+    color: #666;
+  }
+}
+@page :first {
+  @bottom-center { content: none; }
+}
+
+html { font-size: 9pt; }
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.65;
+  color: #1a1a1a;
+  margin: 0;
+  max-width: none;
+  padding: 0;
+}
+
+header#title-block-header {
+  padding-top: 90mm;
+  text-align: center;
+  break-after: page;
+}
+header h1.title {
+  break-before: avoid;
+  border: none;
+  font-size: 22pt; font-weight: 700; margin: 0 0 8mm; line-height: 1.4;
+}
+header .subtitle { font-size: 14pt; font-weight: 400; color: #444; margin: 0; }
+
+nav#TOC { break-after: page; }
+nav#TOC::before {
+  content: "目次";
+  display: block;
+  font-size: 18pt;
+  font-weight: 700;
+  margin-bottom: 6mm;
+}
+nav#TOC ul { list-style: none; padding-left: 0; }
+nav#TOC > ul > li { margin: 2.2mm 0; font-weight: 600; }
+nav#TOC ul ul { display: none; }
+nav#TOC a { color: #1a1a1a; text-decoration: none; }
+
+h1, h2, h3, h4 { font-weight: 700; line-height: 1.4; break-after: avoid; }
+h1 {
+  break-before: page;
+  font-size: 18pt;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 2mm;
+  margin: 0 0 6mm;
+}
+h2 { font-size: 13pt; margin-top: 6mm; border-left: 4px solid #3b6ea5; padding-left: 3mm; }
+h3 { font-size: 11pt; margin-top: 4.5mm; }
+h4 { font-size: 10pt; }
+
+a { color: #2a5d9f; text-decoration: none; word-break: break-all; }
+hr { border: none; border-top: 1px solid #ccc; margin: 6mm 0; }
+
+img { max-width: 100%; height: auto; }
+p:has(> img), div:has(> img) { break-inside: avoid; }
+img { break-inside: avoid; }
+div[style*="margin-left"] { margin-left: 0 !important; text-align: center; }
+
+code {
+  font-family: "Noto Sans Mono", "Noto Sans JP", monospace;
+  font-size: 0.88em;
+  background: #f3f4f6;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+pre {
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  padding: 3mm 4mm;
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-size: 7.8pt;
+  line-height: 1.5;
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 8pt;
+  margin: 4mm 0;
+  break-inside: auto;
+}
+th, td { border: 1px solid #c8ccd0; padding: 1.5mm 2mm; vertical-align: top; }
+th { background: #eef1f4; }
+tr { break-inside: avoid; }
+
+blockquote { border-left: 3px solid #ccc; margin-left: 0; padding-left: 4mm; color: #444; }
+
+/* Keep diagrams compact: cap height, preserve aspect ratio */
+img { height: auto; }
+
+/* Never let a table widen the page (Chrome would shrink every page) */
+table { table-layout: fixed; max-width: 100%; }
+th, td { overflow-wrap: anywhere; word-break: break-word; }
+
+/* Compact loose lists */
+li > p { margin: 0.15em 0; }
+li { margin: 0.1em 0; }

@@ -1,0 +1,392 @@
+01. Scaling/images/cache.png	1202	184	26.2
+01. Scaling/images/cdn.png	1160	372	30.9
+01. Scaling/images/data-center.png	902	884	17.9
+01. Scaling/images/database-replication.png	1202	1282	29.8
+01. Scaling/images/database.png	1204	700	29.4
+01. Scaling/images/horizontal-scaling.png	916	638	22.0
+01. Scaling/images/load-balancer.png	1192	1004	29.6
+01. Scaling/images/logging.png	846	1058	18.0
+01. Scaling/images/message-queue.png	874	216	19.2
+01. Scaling/images/single-server.png	1222	712	30.5
+01. Scaling/images/statefull.png	956	546	19.6
+01. Scaling/images/stateless.png	908	832	21.4
+02. Back Of the Envelope Estimation/images/power-of-two.png	1444	784	42.3
+04. Rate Limiter/images/architecture.png	1470	1106	25.0
+04. Rate Limiter/images/fixed-window-counter.png	1436	780	30.7
+04. Rate Limiter/images/fixed-window-issue.png	1372	622	38.2
+04. Rate Limiter/images/leaking-bucket.png	1458	458	26.0
+04. Rate Limiter/images/rate_limiter_architecture.png	1274	494	32.4
+04. Rate Limiter/images/sliding-window-counter.png	1436	730	29.5
+04. Rate Limiter/images/sliding-window-log.png	1276	898	29.0
+04. Rate Limiter/images/token-bucket.png	1344	1112	26.0
+05. Consistent Hashing/images/adding-server.png	1452	1018	32.1
+05. Consistent Hashing/images/hash-ring.png	1454	946	33.8
+05. Consistent Hashing/images/removing-server.png	1478	1040	28.4
+05. Consistent Hashing/images/server-addition.png	1424	1060	31.3
+05. Consistent Hashing/images/server-hashing-miss.png	1246	814	46.3
+05. Consistent Hashing/images/server-hashing.png	1284	708	50.0
+05. Consistent Hashing/images/server-lookup.png	1176	720	22.0
+05. Consistent Hashing/images/server-removed.png	1452	1034	30.0
+05. Consistent Hashing/images/server-ring.png	1402	930	28.5
+05. Consistent Hashing/images/virtual-nodes.png	1418	958	29.0
+06. Key-Value Store/images/cap.png	1384	1106	45.0
+06. Key-Value Store/images/consistent-server.png	1090	638	31.5
+06. Key-Value Store/images/data-replication.png	1074	1080	28.0
+06. Key-Value Store/images/final-architecture.png	1408	800	24.6
+06. Key-Value Store/images/gossip-protocol.png	1330	522	23.1
+06. Key-Value Store/images/hash-bucket.png	1304	384	16.0
+06. Key-Value Store/images/hash-key-bucket.png	1296	262	18.5
+06. Key-Value Store/images/inconsistent-server.png	1128	520	30.0
+06. Key-Value Store/images/key-bucket.png	1274	430	26.9
+06. Key-Value Store/images/merkel-tree.png	1298	674	18.4
+06. Key-Value Store/images/quorum-consensus.png	1114	950	28.0
+06. Key-Value Store/images/read-path-without-cache.png	1406	680	25.0
+06. Key-Value Store/images/read-path.png	1422	682	26.1
+06. Key-Value Store/images/server-down.png	1256	1014	0.0
+06. Key-Value Store/images/sloppy-quorum.png	1072	1014	37.8
+06. Key-Value Store/images/vector-clock.png	1094	1148	40.0
+06. Key-Value Store/images/write-path.png	1422	710	29.7
+07. Unique-Id Generator/images/multi-master.png	952	472	34.0
+07. Unique-Id Generator/images/snowflake-id-breakdown.png	1252	970	26.0
+07. Unique-Id Generator/images/ticket-server.png	1202	450	25.2
+07. Unique-Id Generator/images/twitter-snowflake.png	1186	164	30.8
+07. Unique-Id Generator/images/uuid.png	1192	324	26.5
+08. URL Shortener/images/hash-function.png	1032	368	38.5
+08. URL Shortener/images/table-schema.png	488	390	39.6
+08. URL Shortener/images/url-lookup.png	1358	804	26.0
+08. URL Shortener/images/url-redirecting-flow.png	1366	418	20.0
+08. URL Shortener/images/url-redirection.png	1312	626	26.0
+08. URL Shortener/images/url-shortening-flow.png	1168	874	32.3
+08. URL Shortener/images/url-shortening.png	734	520	35.7
+09. Web Crawler/images/extensibility.png	1666	1082	22.0
+09. Web Crawler/images/politeness.png	1256	1244	28.0
+09. Web Crawler/images/prioritizer.png	826	1328	18.8
+09. Web Crawler/images/web-crawler-architecture.png	1510	1094	22.1
+10. Notification System/images/contact-info-gathering.png	1346	350	27.2
+10. Notification System/images/data-loss.png	930	544	28.7
+10. Notification System/images/events-tracking.png	1268	664	28.0
+10. Notification System/images/high-level-design.png	1454	1050	24.8
+10. Notification System/images/improved-design.png	1210	812	16.0
+10. Notification System/images/updated-design.png	1318	826	18.8
+11. News Feed System/images/cache-architecture.png	1248	698	29.2
+11. News Feed System/images/fanout-service.png	984	892	18.2
+11. News Feed System/images/feed-publishing-deep-dive.png	1316	1442	19.7
+11. News Feed System/images/feed-publishing.png	830	1328	20.0
+11. News Feed System/images/news-feed-building.png	668	1034	22.0
+12. Chat System/images/basic-design.png	1434	266	32.9
+12. Chat System/images/fanout-presence.png	1238	584	22.0
+12. Chat System/images/group-chat-flow.png	1110	936	26.0
+12. Chat System/images/group-chat.png	798	692	48.6
+12. Chat System/images/heartbeat-mechanism.png	1152	926	20.0
+12. Chat System/images/high-level-design.png	1178	1290	20.0
+12. Chat System/images/high-level-statefull-arch.png	1136	606	25.3
+12. Chat System/images/high-level-stateless-arch.png	1098	838	29.1
+12. Chat System/images/long-polling.png	1428	1350	35.3
+12. Chat System/images/message-synchronization.png	1180	918	29.9
+12. Chat System/images/one-to-one-chat-flow.png	1110	1038	21.2
+12. Chat System/images/one-to-one-chat.png	892	772	50.2
+12. Chat System/images/online-presence.png	1080	298	29.2
+12. Chat System/images/polling.png	1436	1544	29.2
+12. Chat System/images/websocket.png	1446	952	51.8
+12. Chat System/images/zookeeper.png	1062	1012	22.9
+13. Search Autocomplete/images/basic-search-suggestions.png	664	508	31.4
+13. Search Autocomplete/images/cached-trie.png	1374	712	22.0
+13. Search Autocomplete/images/data-gathering-flow.png	1318	512	20.0
+13. Search Autocomplete/images/data-gathering.png	1466	468	26.1
+13. Search Autocomplete/images/delete-kv.png	1296	306	26.3
+13. Search Autocomplete/images/frequency-table.png	1466	1018	43.6
+13. Search Autocomplete/images/sharding.png	1112	754	26.7
+13. Search Autocomplete/images/trie-db.png	1298	762	26.0
+13. Search Autocomplete/images/trie-structure.png	1202	710	20.0
+14. Youtube/images/dag-config.png	1198	444	26.0
+14. Youtube/images/dag-scheduler.png	1356	802	26.1
+14. Youtube/images/dag-video-transcoding.png	1304	944	22.6
+14. Youtube/images/high-level-design.png	1040	662	31.4
+14. Youtube/images/message-queue1.png	1224	350	21.1
+14. Youtube/images/message-queue2.png	960	326	20.9
+14. Youtube/images/metadata-upload.png	586	934	22.0
+14. Youtube/images/pres-signed-urls.png	1200	710	30.0
+14. Youtube/images/resource-manager.png	1376	444	22.0
+14. Youtube/images/task-worker.png	622	640	32.0
+14. Youtube/images/video-split.png	1320	148	32.9
+14. Youtube/images/video-streaming-flow.png	528	658	30.0
+14. Youtube/images/video-transcoding-architecture.png	1356	484	26.0
+14. Youtube/images/video-uploading-flow.png	1262	1530	26.7
+15. Google Drive/images/delta-sync.png	1106	896	40.0
+15. Google Drive/images/download-flow.png	1322	668	22.0
+15. Google Drive/images/file-sync.png	1312	720	25.0
+15. Google Drive/images/high-level-design.png	1230	958	20.0
+15. Google Drive/images/metadata-database.png	1368	896	26.0
+15. Google Drive/images/namespaces.png	1146	526	34.3
+15. Google Drive/images/replication.png	1300	506	24.0
+15. Google Drive/images/sync-conflicts.png	1324	336	21.3
+15. Google Drive/images/upload-flow.png	1326	782	18.4
+16. Proximity Service/images/2d-search.png	922	912	20.0
+16. Proximity Service/images/boundary-issue.png	926	576	19.8
+16. Proximity Service/images/building-quadtree.png	1148	752	20.0
+16. Proximity Service/images/dataset-intersection.png	898	880	18.5
+16. Proximity Service/images/even-grid.png	920	532	22.0
+16. Proximity Service/images/final-design.png	1172	812	20.9
+16. Proximity Service/images/geofence.png	1138	760	24.0
+16. Proximity Service/images/geohash-1.png	918	778	46.8
+16. Proximity Service/images/geohash-radius-mapping.png	1140	390	30.0
+16. Proximity Service/images/geohash.png	930	748	18.0
+16. Proximity Service/images/geospatial-index-types.png	958	372	18.6
+16. Proximity Service/images/high-level-design.png	1422	1290	30.3
+16. Proximity Service/images/hilbert-curve.png	1122	884	28.4
+16. Proximity Service/images/quadtree.png	1158	340	24.2
+16. Proximity Service/images/realworld-quadtree.png	1172	750	22.0
+17. Nearby Friends/images/channel-distribution-data.png	1192	1282	32.0
+17. Nearby Friends/images/consistent-hashing.png	1590	674	30.1
+17. Nearby Friends/images/detailed-periodic-location-update.png	1682	1430	30.0
+17. Nearby Friends/images/fan-out-backend.png	1222	504	26.3
+17. Nearby Friends/images/geohash-borders.png	1238	764	31.5
+17. Nearby Friends/images/geohash-pubsub.png	1628	722	28.4
+17. Nearby Friends/images/location-updates-geohash.png	1650	750	26.4
+17. Nearby Friends/images/periodic-location-update.png	1714	1344	29.9
+17. Nearby Friends/images/redis-pubsub-usage.png	1598	726	30.4
+17. Nearby Friends/images/simple-high-level-design.png	1624	1272	29.4
+18. Google Maps/images/adaptive-eta-data-storage.png	1504	1342	40.0
+18. Google Maps/images/cdn-vs-no-cdn.png	1172	986	24.0
+18. Google Maps/images/final-design.png	2008	1524	30.0
+18. Google Maps/images/geohashing.png	1042	1234	27.0
+18. Google Maps/images/high-level-design.png	1362	872	27.3
+18. Google Maps/images/location-service-diagram.png	764	1098	32.0
+18. Google Maps/images/location-service.png	582	878	33.2
+18. Google Maps/images/location-update-batches.png	1492	438	28.2
+18. Google Maps/images/location-update-streaming.png	1962	1114	34.7
+18. Google Maps/images/map-projections.png	1542	1294	23.0
+18. Google Maps/images/map-routing-hierarchical.png	1392	1294	24.8
+18. Google Maps/images/map-tile-url-calculation.png	984	844	28.0
+18. Google Maps/images/navigation-service.png	1496	1416	28.3
+18. Google Maps/images/partitioning-system.png	792	760	28.8
+18. Google Maps/images/precomputed-map-tile-image.png	1168	1174	30.0
+18. Google Maps/images/road-representation.png	1522	712	44.8
+18. Google Maps/images/routing-tiles.png	1534	722	34.3
+18. Google Maps/images/shortest-path-service.png	1390	608	16.4
+18. Google Maps/images/static-map-tiles.png	910	896	32.0
+18. Google Maps/images/user-location-data-torw.png	1298	268	42.8
+18. Google Maps/images/user-location-row-example.png	1444	268	39.8
+18. Google Maps/images/zoom-level-increases.png	1258	1630	30.1
+19. Distributed Message Queue/images/ack-0.png	1430	792	32.3
+19. Distributed Message Queue/images/ack-1.png	1432	798	33.9
+19. Distributed Message Queue/images/ack-all.png	1480	778	31.6
+19. Distributed Message Queue/images/at-least-once.png	1526	190	32.1
+19. Distributed Message Queue/images/at-most-once.png	1712	220	36.1
+19. Distributed Message Queue/images/batch-size-throughput-vs-latency.png	1346	894	34.0
+19. Distributed Message Queue/images/broker-failure-recovery.png	1256	1146	21.7
+19. Distributed Message Queue/images/broker-replica-redistribution.png	1568	1114	25.5
+19. Distributed Message Queue/images/consumer-example.png	1718	488	30.5
+19. Distributed Message Queue/images/consumer-flow.png	1206	692	38.0
+19. Distributed Message Queue/images/consumer-groups.png	1308	612	30.0
+19. Distributed Message Queue/images/consumer-join-group-usecase.png	1640	1002	29.0
+19. Distributed Message Queue/images/consumer-leaves-group-usecase.png	1624	998	28.4
+19. Distributed Message Queue/images/consumer-no-heartbeat-usecase.png	1618	992	30.6
+19. Distributed Message Queue/images/consumer-rebalance-example.png	1640	514	32.8
+19. Distributed Message Queue/images/consumer-rebalancing.png	1716	634	39.8
+19. Distributed Message Queue/images/delayed-message-implementation.png	1032	736	34.6
+19. Distributed Message Queue/images/exactly-once.png	1698	216	36.0
+19. Distributed Message Queue/images/high-level-architecture.png	1716	794	32.6
+19. Distributed Message Queue/images/image_2023-02-10-10-00-53.png	1038	728	37.7
+19. Distributed Message Queue/images/in-sync-replicas-example.png	1196	890	34.0
+19. Distributed Message Queue/images/message-filtering.png	1584	338	39.2
+19. Distributed Message Queue/images/message-queue-components.png	1726	216	35.6
+19. Distributed Message Queue/images/message-structure.png	1134	884	34.3
+19. Distributed Message Queue/images/partition-decrease.png	1160	594	31.6
+19. Distributed Message Queue/images/partition-exmaple.png	1152	596	31.1
+19. Distributed Message Queue/images/partitions.png	1356	260	35.6
+19. Distributed Message Queue/images/point-to-point-model.png	1640	592	41.6
+19. Distributed Message Queue/images/publish-subscribe-model.png	1628	578	42.9
+19. Distributed Message Queue/images/replication-example.png	1710	536	27.6
+19. Distributed Message Queue/images/routing-layer-producer.png	1204	838	33.3
+19. Distributed Message Queue/images/routing-layer.png	1254	834	33.8
+19. Distributed Message Queue/images/state-storage.png	1502	576	39.5
+19. Distributed Message Queue/images/wal-example.png	1724	408	27.7
+19. Distributed Message Queue/images/zookeeper.png	1740	730	31.8
+20. Metrics Monitoring and Alerting System/images/alerting-system.png	1956	708	33.8
+20. Metrics Monitoring and Alerting System/images/cache-layer-query-service.png	1942	904	26.0
+20. Metrics Monitoring and Alerting System/images/consistent-hash-ring.png	1750	1076	26.0
+20. Metrics Monitoring and Alerting System/images/double-delta-encoding.png	1928	652	32.6
+20. Metrics Monitoring and Alerting System/images/final-design.png	1980	860	25.9
+20. Metrics Monitoring and Alerting System/images/grafana-dashboard.png	1862	1454	21.9
+20. Metrics Monitoring and Alerting System/images/high-level-design.png	1700	798	29.6
+20. Metrics Monitoring and Alerting System/images/influxdb-scale.png	1658	496	37.2
+20. Metrics Monitoring and Alerting System/images/metrics-collection-flow.png	1414	544	38.2
+20. Metrics Monitoring and Alerting System/images/metrics-collection-kafka.png	1382	1060	36.5
+20. Metrics Monitoring and Alerting System/images/metrics-collection.png	1744	808	27.9
+20. Metrics Monitoring and Alerting System/images/metrics-collector-agent.png	1714	590	28.4
+20. Metrics Monitoring and Alerting System/images/metrics-example-1-data.png	1114	398	41.8
+20. Metrics Monitoring and Alerting System/images/metrics-example-1.png	1646	462	26.6
+20. Metrics Monitoring and Alerting System/images/metrics-monitoring-core-components.png	878	524	40.5
+20. Metrics Monitoring and Alerting System/images/metrics-transmission-pipeline.png	1614	722	26.1
+20. Metrics Monitoring and Alerting System/images/pull-model-example.png	1398	772	31.0
+20. Metrics Monitoring and Alerting System/images/push-model-example.png	1170	674	28.0
+20. Metrics Monitoring and Alerting System/images/queuing-mechanism.png	1866	714	25.0
+20. Metrics Monitoring and Alerting System/images/service-discovery-example.png	1158	352	32.5
+20. Metrics Monitoring and Alerting System/images/time-series-data-example.png	1204	408	36.0
+20. Metrics Monitoring and Alerting System/images/time-series-data-viz.png	1582	952	36.1
+21. Ad Click Event Aggregation/images/ad-count-map-reduce.png	1160	804	34.0
+21. Ad Click Event Aggregation/images/aggregation-service-scaling.png	1966	1250	41.0
+21. Ad Click Event Aggregation/images/alternative-design.png	1960	680	34.0
+21. Ad Click Event Aggregation/images/atomic-commit.png	1840	1126	30.0
+21. Ad Click Event Aggregation/images/cassandra-scalability.png	1352	1234	31.1
+21. Ad Click Event Aggregation/images/data-duplication-example-2.png	1950	1348	41.2
+21. Ad Click Event Aggregation/images/data-duplication-example-3.png	1966	1346	40.9
+21. Ad Click Event Aggregation/images/data-duplication-example.png	1328	1018	37.5
+21. Ad Click Event Aggregation/images/digital-advertising-example.png	1930	244	28.6
+21. Ad Click Event Aggregation/images/fault-tolerance-example.png	1916	652	38.7
+21. Ad Click Event Aggregation/images/fault-tolerance-recovery-example.png	1464	758	32.7
+21. Ad Click Event Aggregation/images/high-level-design-1.png	1812	400	29.8
+21. Ad Click Event Aggregation/images/high-level-design-2.png	1778	1024	30.1
+21. Ad Click Event Aggregation/images/hotspot-issue.png	1796	1322	31.3
+21. Ad Click Event Aggregation/images/kappa-architecture.png	1860	540	34.0
+21. Ad Click Event Aggregation/images/lambda-architecture.png	1868	716	38.8
+21. Ad Click Event Aggregation/images/map-node.png	1336	1018	39.9
+21. Ad Click Event Aggregation/images/multi-threading-example.png	1838	1426	43.0
+21. Ad Click Event Aggregation/images/recalculation-example.png	1940	692	26.3
+21. Ad Click Event Aggregation/images/reconciliation-flow.png	1952	830	28.3
+21. Ad Click Event Aggregation/images/reduce-node.png	1616	764	36.5
+21. Ad Click Event Aggregation/images/scale-consumers.png	1948	698	37.1
+21. Ad Click Event Aggregation/images/sliding-window.png	1784	452	48.6
+21. Ad Click Event Aggregation/images/top-100-map-reduce.png	1570	822	36.7
+21. Ad Click Event Aggregation/images/tumbling-window.png	1780	432	32.3
+21. Ad Click Event Aggregation/images/use-case-1.png	1856	758	35.1
+21. Ad Click Event Aggregation/images/use-case-2.png	1844	1030	30.5
+21. Ad Click Event Aggregation/images/watermark-2.png	1950	606	36.0
+21. Ad Click Event Aggregation/images/watermark-technique.png	1988	616	35.9
+22. Hotel Reservation System/images/atomicity-monolith.png	1362	1150	30.3
+22. Hotel Reservation System/images/database-constraint.png	1478	1368	32.2
+22. Hotel Reservation System/images/database-sharding.png	1964	1122	35.8
+22. Hotel Reservation System/images/double-booking-multiple-users.png	1438	1262	31.3
+22. Hotel Reservation System/images/double-booking-single-user.png	1508	986	33.2
+22. Hotel Reservation System/images/high-level-design.png	1946	1100	35.4
+22. Hotel Reservation System/images/idempotency.png	1130	1066	36.9
+22. Hotel Reservation System/images/inventory-cache.png	1094	682	43.0
+22. Hotel Reservation System/images/microservice-non-atomic-operation.png	1748	1062	37.8
+22. Hotel Reservation System/images/microservices-vs-monolith.png	1920	514	30.9
+22. Hotel Reservation System/images/optimistic-locking.png	1938	1142	34.1
+22. Hotel Reservation System/images/pessimistic-locking.png	1994	1320	35.3
+22. Hotel Reservation System/images/qps-estimation.png	1290	630	45.8
+22. Hotel Reservation System/images/schema-design.png	1622	1138	36.0
+22. Hotel Reservation System/images/status-state-machine.png	1320	630	34.1
+22. Hotel Reservation System/images/unique-constraint-violation.png	1746	1092	37.6
+22. Hotel Reservation System/images/updated-schema.png	1366	1028	30.7
+23. Distributed Email Service/images/attachments.png	1328	642	46.7
+23. Distributed Email Service/images/dns-lookup.png	1494	546	42.0
+23. Distributed Email Service/images/elasticsearch.png	1210	1224	32.8
+23. Distributed Email Service/images/email-receiving-flkow.png	1824	946	24.9
+23. Distributed Email Service/images/email-sending-flow.png	1698	1126	26.3
+23. Distributed Email Service/images/emails-table.png	876	982	59.1
+23. Distributed Email Service/images/folders-table.png	872	544	51.2
+23. Distributed Email Service/images/high-level-architecture.png	1328	1040	38.2
+23. Distributed Email Service/images/legend.png	856	518	54.0
+23. Distributed Email Service/images/local-dir-storage.png	920	1166	24.0
+23. Distributed Email Service/images/lsm-tree.png	1926	1002	30.1
+23. Distributed Email Service/images/multi-dc-example.png	1362	1260	26.8
+23. Distributed Email Service/images/read-unread-emails.png	1288	568	46.0
+23. Distributed Email Service/images/traditional-mail-server.png	1166	928	26.0
+24. S3-like Object Storage/images/bucket-and-object.png	1400	648	35.5
+24. S3-like Object Storage/images/checksums-for-correctness.png	1392	1238	37.1
+24. S3-like Object Storage/images/compaction.png	1650	1344	34.1
+24. S3-like Object Storage/images/consistency-vs-latency.png	1548	1152	38.5
+24. S3-like Object Storage/images/data-persistence-flow.png	1842	846	32.8
+24. S3-like Object Storage/images/data-store-interactions.png	1562	812	40.5
+24. S3-like Object Storage/images/data-store-main-components.png	1562	926	35.5
+24. S3-like Object Storage/images/deleting-versioned-object.png	1850	896	37.7
+24. S3-like Object Storage/images/download-object.png	1678	1130	29.2
+24. S3-like Object Storage/images/erasure-coding-across-failure-domains.png	1396	1394	29.0
+24. S3-like Object Storage/images/erasure-coding-vs-replication.png	1100	822	20.2
+24. S3-like Object Storage/images/erasure-coding.png	1342	918	26.7
+24. S3-like Object Storage/images/failure-domain-isolation.png	1652	1148	31.3
+24. S3-like Object Storage/images/high-level-design.png	1596	1102	30.5
+24. S3-like Object Storage/images/metadata-data-model.png	1142	406	43.8
+24. S3-like Object Storage/images/multipart-upload.png	1210	1414	33.5
+24. S3-like Object Storage/images/object-store-vs-unix.png	1368	1058	34.0
+24. S3-like Object Storage/images/object-versioning.png	1844	858	34.9
+24. S3-like Object Storage/images/storage-comparison.png	1802	684	35.1
+24. S3-like Object Storage/images/updated-data-persistence-flow.png	1824	1032	29.1
+24. S3-like Object Storage/images/uploading-object.png	1638	1110	30.3
+24. S3-like Object Storage/images/virtual-cluster-map.png	1796	574	21.7
+24. S3-like Object Storage/images/wal-optimization.png	1644	1068	39.4
+25. Real-time Gaming Leaderboard/images/alternative-design.png	1366	1108	32.0
+25. Real-time Gaming Leaderboard/images/api-gateway-mapping.png	1310	480	44.0
+25. Real-time Gaming Leaderboard/images/chess-game-leaderboard-table-1.png	1452	532	35.9
+25. Real-time Gaming Leaderboard/images/chess-game-leaderboard-table-2.png	1464	614	38.8
+25. Real-time Gaming Leaderboard/images/chess-game-leaderboard-table-3.png	1450	598	35.8
+25. Real-time Gaming Leaderboard/images/dynamo-db.png	1344	286	32.4
+25. Real-time Gaming Leaderboard/images/find-leaderboard-position.png	1364	242	36.0
+25. Real-time Gaming Leaderboard/images/hash-partition.png	1694	1344	36.9
+25. Real-time Gaming Leaderboard/images/high-level-architecture.png	1102	1066	30.5
+25. Real-time Gaming Leaderboard/images/leaderboard-position-of-user.png	1344	1112	32.0
+25. Real-time Gaming Leaderboard/images/leaderboard-table.png	884	580	63.8
+25. Real-time Gaming Leaderboard/images/leaderboard.png	1390	560	32.3
+25. Real-time Gaming Leaderboard/images/manage-services-ourselves.png	1836	770	40.2
+25. Real-time Gaming Leaderboard/images/message-queue-based-comm.png	1372	516	33.2
+25. Real-time Gaming Leaderboard/images/range-partition.png	1856	206	44.5
+25. Real-time Gaming Leaderboard/images/scatter-gather-2.png	1744	1284	39.5
+25. Real-time Gaming Leaderboard/images/skip-list-performance.png	1956	322	0.0
+25. Real-time Gaming Leaderboard/images/skip-list.png	1342	1182	26.0
+25. Real-time Gaming Leaderboard/images/sorted-set.png	1352	760	37.2
+25. Real-time Gaming Leaderboard/images/top-10-players-calculation.png	1460	1388	33.6
+25. Real-time Gaming Leaderboard/images/user-retrieve-leaderboard.png	1964	506	32.2
+25. Real-time Gaming Leaderboard/images/user-scoring-point-lambda.png	1978	496	31.9
+25. Real-time Gaming Leaderboard/images/user-wins-point.png	1354	216	38.0
+26. Payment System/images/failed-payments.png	1956	846	33.1
+26. Payment System/images/high-level-flow.png	1304	474	34.0
+26. Payment System/images/hosted-payment-page-workflow.png	1936	1088	36.5
+26. Payment System/images/hosted-payment-page.png	1394	1470	47.9
+26. Payment System/images/idempotency-example.png	1348	930	35.4
+26. Payment System/images/multiple-receiver.png	1356	548	35.6
+26. Payment System/images/payin-flow-high-level.png	1792	952	34.7
+26. Payment System/images/retry-mechanism.png	1116	876	37.1
+26. Payment System/images/settlement-report.png	1758	938	33.3
+26. Payment System/images/single-receiver.png	1126	1262	34.4
+27.  Digital Wallet/images/2pc-protocol.png	1852	646	27.1
+27.  Digital Wallet/images/cancel-phase.png	1986	560	24.0
+27.  Digital Wallet/images/command-queue.png	1418	364	38.3
+27.  Digital Wallet/images/confirm-phase.png	2000	724	27.2
+27.  Digital Wallet/images/cqrs-architecture.png	1750	1454	28.8
+27.  Digital Wallet/images/digital-wallet.png	1920	372	38.9
+27.  Digital Wallet/images/distributed-transactions-relational-dbs.png	1718	1014	34.4
+27.  Digital Wallet/images/dynamic-event-sourcing.png	1770	472	36.2
+27.  Digital Wallet/images/event-sourcing.png	1350	586	28.2
+27.  Digital Wallet/images/historical-states.png	1404	1044	30.6
+27.  Digital Wallet/images/mmap-optimization.png	1346	1096	32.0
+27.  Digital Wallet/images/out-of-order-execution.png	1690	720	33.4
+27.  Digital Wallet/images/phase-status-tables.png	1474	800	26.5
+27.  Digital Wallet/images/polling-approach.png	1734	1226	32.7
+27.  Digital Wallet/images/push-state-machines.png	1762	1098	30.5
+27.  Digital Wallet/images/raft-replication.png	1588	982	27.7
+27.  Digital Wallet/images/reverse-proxy.png	1800	1106	29.8
+27.  Digital Wallet/images/rocks-db-approach.png	1352	1076	34.0
+27.  Digital Wallet/images/saga.png	1370	858	38.0
+27.  Digital Wallet/images/sharded-raft-groups.png	1428	1564	20.5
+27.  Digital Wallet/images/snapshot-approach.png	1976	952	28.7
+27.  Digital Wallet/images/try-phase.png	1384	626	26.4
+27.  Digital Wallet/images/unbalanced-state.png	1972	814	26.4
+27.  Digital Wallet/images/wallet-service-state-macghine.png	1708	884	28.8
+27.  Digital Wallet/images/wallet-service.png	1654	906	34.0
+28. Stock Exchange/images/application-loop.png	1172	1248	38.4
+28. Stock Exchange/images/candlestick.png	774	670	40.5
+28. Stock Exchange/images/client-gateway.png	810	494	34.6
+28. Stock Exchange/images/client-gateways.png	1370	722	38.2
+28. Stock Exchange/images/design-so-far.png	1508	1490	29.1
+28. Stock Exchange/images/determinism.png	1708	394	35.4
+28. Stock Exchange/images/event-sourcing.png	1404	696	38.8
+28. Stock Exchange/images/high-level-design.png	2000	1088	30.4
+28. Stock Exchange/images/l1-price.png	690	462	40.6
+28. Stock Exchange/images/l2-price.png	976	942	37.0
+28. Stock Exchange/images/l3-price.png	1336	888	34.0
+28. Stock Exchange/images/leader-election-terms.png	1400	424	35.6
+28. Stock Exchange/images/leader-election.png	1390	536	43.0
+28. Stock Exchange/images/market-data-publisher.png	1738	916	32.3
+28. Stock Exchange/images/market-data.png	1370	908	32.7
+28. Stock Exchange/images/mmap-bus.png	1340	992	36.0
+28. Stock Exchange/images/order-book-execution.png	1434	1042	35.4
+28. Stock Exchange/images/order-book-impl.png	1752	1444	23.8
+28. Stock Exchange/images/product-order-execution-data-model.png	1354	1560	38.1
+28. Stock Exchange/images/replication-across-servers.png	1852	1150	46.3
+28. Stock Exchange/images/reporting-flow.png	1380	1466	32.0
+28. Stock Exchange/images/sequencer-deep-dive.png	1390	1058	42.7
+28. Stock Exchange/images/sequencer.png	1388	436	47.8
+28. Stock Exchange/images/world-stock-exchanges.png	2006	962	23.3

@@ -1,0 +1,2 @@
+# Per-image scale factor applied on top of the text-size based width.
+# Format: <path relative to ja/><TAB><factor>
