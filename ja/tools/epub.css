@@ -1,0 +1,10 @@
+body { line-height: 1.7; }
+h1 { font-size: 1.5em; border-bottom: 1px solid #888; padding-bottom: 0.2em; }
+h2 { font-size: 1.25em; margin-top: 1.4em; }
+h3 { font-size: 1.1em; }
+img { max-width: 100%; height: auto; }
+div, p { text-align: left; }
+pre { white-space: pre-wrap; word-break: break-all; font-size: 0.8em; background: #f4f4f4; padding: 0.5em; }
+code { font-family: monospace; }
+table { border-collapse: collapse; font-size: 0.8em; }
+th, td { border: 1px solid #999; padding: 0.2em 0.4em; }
